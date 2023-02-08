@@ -6,7 +6,7 @@
 
 ## Overview
 
-The purpose of this analysis is to use Tableau to create visualizations for a business proposal to bring Citibike to Des Moines, Iowa. The visualizations are created using Citibike data from New York City so that investors can determine if it is worthwhile to launch Citibike in Des Moines. The visualizations created in Tableau show the length of time that bikes are checked out for all riders and genders, the number of trips for all riders and genders for each hour of each day of the week, the number of trips for each type of user and gender for each day of the week, and the top starting and ending locations.
+The purpose of this analysis is to use Tableau to create visualizations for a business proposal to bring Citibike to Des Moines, Iowa. The visualizations are created using Citibike data from New York City from August of 2019 so that investors can determine if it is worthwhile to launch Citibike in Des Moines. The visualizations created in Tableau show the length of time that bikes are checked out for all riders and genders, the number of trips for all riders and genders for each hour of each day of the week, the number of trips for each type of user and gender for each day of the week, and the top starting and ending locations.
 
 ## Results
 
@@ -30,7 +30,7 @@ Peak hours of Citibike usage on Monday - Friday are from 7 AM - 9 AM and 5 PM - 
 
 ### Trips by Gender (Weekday per Hour)
 
-Trips by weekday per hour broken out by gender, shows the same peak hour trends as the Trips by Weekday per Hour visualization, and shows that males use Citibike more in those peak hours than female or unknown genders. 
+Trips by weekday per hour broken out by gender, shows the same peak hour trends as the Trips by Weekday per Hour visualization, and shows that males use Citibike more than females or unknown genders. 
 
 ![Trips by Gender (Weekday per Hour)](https://user-images.githubusercontent.com/115508658/217650923-aee0ed31-c0f8-441b-8e0a-ba2be74b1539.png)
 
@@ -47,3 +47,10 @@ Top starting locations and top ending locations are most heavily concentrated in
 ![Locations](https://user-images.githubusercontent.com/115508658/217650965-d398d243-9bf3-41c4-99b5-ef26b791a378.png)
 
 ## Summary
+
+The majority of people who used Citibike in New York City in August of 2019 were male. Based on trips taken by weekday by hour, it appears that many of the users use Citibike to travel to and from work on weekdays, with fewer users using Citibike on weekends. Subscribers use Citibike more on the weekdays, while customers use Citibike more on the weekends. Subscribers likely subscribe to Citibike as an alternative to public transportation or owning a vehicle in a city in which that might not be practical. The vast majority of all trip durations were 30 minutes or less.
+
+Additional possible visualizations:
+
+1.	It would be beneficial to perform analysis on users per month to determine if trends are consistent all year. August in New York City generally has good weather, so other months might not see the same usage or trends. It would also be helpful to factor in the monthly climate of Des Moines to determine if it is comparable to New York City.
+2.	It would be beneficial to compare local population, tourist population, and city layout data from New York City to Des Moines to determine if a smaller city like Des Moines would see the same trends that are observed for New York City.
